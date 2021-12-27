@@ -1,12 +1,14 @@
+https://github.com/sirairpower/interview
+
 # Subject
 原則
 1.可用 memory 做資料暫存。
 * 2. java 8 以上語法為主。
-* 3.題目如看不懂可以交卷時自行說明調整 補充的部分。 
+* 3.題目如看不懂可以交卷時自行說明調整 補充的部分。
 * 4.請考慮 Thread safe 的問題
 * 5. api 請依照 Restful 設計
 1.請參考 https://spring.io/quickstart 建立一個 hello world.
-2.請設計新增 刪除 修改 查詢 單一以及分頁 會員功能 api 。 
+2.請設計新增 刪除 修改 查詢 單一以及分頁 會員功能 api 。
 3.請設計一個訂單訂購 api ，會員可以訂購產品。
 4.請設計一個訂單查詢 api ，會員可以根據訂單編號做 分頁查詢。
 
@@ -32,9 +34,9 @@ Console 會印出連結，(預設帳密howard / fjdksl)成功登入後會導頁�
 
 主機架在AWS，有使用EC2 ,RDS , SQS , SMS ...等服務。
 
- 網站部落格使用PHP，FG多個domain , 用Nginx在前置做HA及反向代理。 
+ 網站部落格使用PHP，FG多個domain , 用Nginx在前置做HA及反向代理。
 
-https://www.fashionguide.com.tw/ 
+https://www.fashionguide.com.tw/
 
 ## 品效數據 Wordpress 電商平台維護。
 
