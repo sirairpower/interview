@@ -47,3 +47,21 @@ https://www.fashionguide.com.tw/
 https://heroin.asia
 
 敝人不常整理作品，如有需要，可以再行討論製作，謝謝。
+
+# Load-Time-Weaving POC
+### 邏輯說明：
+測試侵入third party jar ，在 jpa repository save()時，實際上是呼叫
+SimpleJpaRepository 處理。
+利用Aspectj load-time weaving ，在 SimpleJpaRepository 執行前印出我想要測試的邏輯，
+並且可以捕捉傳入參數。
+
+請執行 OrdersServiceTest.testAOP() 觀察。
+
+### 參考資料：
+https://github.com/indrabasak/spring-loadtime-weaving-example
+### 處理 lombok 跟 aspectj issue:
+https://github.com/projectlombok/lombok/issues/995
+
+
+
+
